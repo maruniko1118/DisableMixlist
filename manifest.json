@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "disable mixlist",
+    "version": "1.0.0",
+    "description": "YouTubeで、ミックスリストが始まろうとしたときに、通常のURLにリダイレクトします。",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*.youtube.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
